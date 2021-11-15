@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="popup">
+    <div class="popup-container">
+      <div class="form-container">
+        <h2 class="popup-title">Ваш фидбек</h2>
+
+        <form class="form-feedback">
+
+          <div class='popup-block'>
+            <label class="popup-form-qroup">
+              <h3 class="popup-field_title">Как часто вы заходите на сайт?</h3>
+              <span class="hidden">Форма выбора как часто вы заходите на сайт</span>
+              <select class="popup-select">
+                <option>Почти каждый день</option>
+                <option>Раз в несколько дней</option>
+                <option>Раз в несколько недель</option>
+                <option>Несколько раз в год</option>
+              </select>
+            </label>
+          </div>
+
+          <div class='popup-block'>
+            <h3 class="popup-field-title">Вы подписаны на e-mail рассылку?</h3>
+            <span class='hidden'>Выбор ответа Да</span>
+            <input type="radio" class="popup-radio" name="popup-radio" id="popup-dario-yes">
+            <label class="popup-radio-item" for="popup-dario-yes">Да</label>
+
+            <span class='hidden'>Выбор ответа Нет</span>
+            <input type="radio" class="popup-radio" name="popup-radio" id="popup-dario-no">
+            <label class="popup-radio-item" for="popup-dario-no">Нет</label>
+          </div>
+
+          <div class="popup-block last-popup-block">
+            <label class="popup-form-qroup">
+              <h3 class="popup-field-title">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</h3>
+              <textarea class="popup-textarea" placeholder="Может, больше рецептов?"></textarea>
+            </label>
+          </div>
+
+          <button class="popup-button">Отправить</button>
+
+        </form>
+
+        <button class="close-popup" type="submit"></button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Header -->
+<header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="header-logo">
+          <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="header-logo" alt="noemi" width="170"></a>
+        </div>
+  
+        <!-- Nav -->
+        <nav class="link-nav">
+          <ul class="link-list">
+            <li class="link-tag"><a class="link" href="#">главная</a></li>
+            <li class="link-tag"><a class="link" href="#">посты</a></li>
+            <li class="link-tag"><a class="link" href="#">статьи</a></li>
+            <li class="link-tag"><a class="link" href="#">теги</a></li>
+            <li class="link-tag"><a class="link" href="#">темы</a></li>
+            <li class="link-tag"><a class="link" href="#">контакты</a></li>
+          </ul>
+        </nav>
+  
+      </div>
+      <h1 class="title">Блог о творчестве, спорте, и образе жизни</h1>
+    </div>
+  </header>
+  
+  <!-- Main -->
+  <div class="main">
+      <div class="ribbon">
+            <header class="ribbon-header">
+                <a class="a-ribbon" href="#">
+                    <h3 class="ribbon-header-text">сейчас в тренде</h3>
+                </a>    
+            </header>
+      <div class="ribbon-card">
+        <article class="ribbon-content">
+          
+          <div class="riboon-img-garden ribbon-img"> 
+            
+            <div class="ribbon-text-content">
+              <div class="border-rib"  >
+          <div class="tag-card tag-rib">
+            <ul>
+              <li class='link-tag-card'><a href="#" class="tag">travel</a></li>
+              <li class='link-tag-card'><a href="#" class="tag">health</a></li>
+            </ul>
+          </div>
+          <a href="#" class="a-header">
+            <h2 class="ribbon-disc">Сейчас в тренде: сад на подоконнике</h2>
+          </a>
+           </div> 
+          </div>
+          </div>
+        </article>
+
+        <article class="ribbon-content">
+          
+          <div class="riboon-img-cheese ribbon-img">   
+            <div class="ribbon-text-content">
+              <div class="border-rib"  >
+          <div class="tag-card tag-rib">
+              <a href="#" class="tag">food</a> 
+          </div>
+          <a href="#" class="a-header">
+            <h2 class="ribbon-disc">Сыры на красивых картинках из интернета: какие они на вкус?</h2>
+          </a>
+        </div>
+        </div> 
+           </div> 
+        </article>
+
+        <article class="ribbon-content">
+          
+          <div class="riboon-img-camping ribbon-img">   
+            <div class="ribbon-text-content">
+              <div class="border-rib"  >
+            <div class="tag-card  tag-rib">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag ">lifestyle</a></li>
+                <li class='link-tag-card'><a href="#" class="tag ">travel</a></li>
+              </ul>
+            </div>
+              <a href="#" class="a-header">
+                <h2 class="ribbon-disc">обираемся в первый поход в горы</h2>
+              </a>
+            </div>
+          </div>
+          </div>
+        </article>
+
+        <article class="ribbon-content">
+          
+          <div class="riboon-img-lemon ribbon-img">   
+            <div class="ribbon-text-content">
+              <div class="border-rib"  >
+          <div class="tag-card tag-rib">
+            <ul>
+              <li class='link-tag-card'><a href="#" class="tag">food</a></li>
+              <li class='link-tag-card'><a href="#" class="tag">health</a></li>
+            </ul>
+          </div>
+          <a href="#" class="a-header">
+            <h2 class="ribbon-disc">Сейчас в тренде: сколько витамина с в лимонах?</h2>
+          </a>
+           </div> 
+          </div> 
+        </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="container-page">  
+      <main class="card">
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img  src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">travel</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">health</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">10 мест, ради которых стоит проснуться на рассвете</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">health</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">lifestyle</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description"> 
+              <a href="#" class="a-header">
+                <h2 class="header-card">Йога для начинающих в домашних условиях</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <a href="#" class="tag">music</a>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">Лучшие музыкальные фестивали этого лета</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
+              <br>
+              <p class="text-card">Мы составили список лучших летних фестивалей по всему миру.</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">lyfestyle</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">food</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">Наукоёмкий подход к кулинарии</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">lifestyle</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">imterior</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">art</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">делаем модные принты на подушках для интерьера </h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">travel</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">lifestyle</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">Как первый раз отправиться в горы?</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="card-content">
+          <div class="img-card">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="news-img" class="content-img"></a>
+          </div>
+  
+          <div class="description">
+            <div class="tag-card">
+              <ul>
+                <li class='link-tag-card'><a href="#" class="tag">lifestyle</a></li>
+                <li class='link-tag-card'><a href="#" class="tag">food</a></li>
+              </ul>
+            </div>
+  
+            <header class="header-description">
+              <a href="#" class="a-header">
+                <h2 class="header-card">Наукоёмкий подход к кулинарии</h2>
+              </a>
+            </header>
+  
+            <div class="date">
+              <time class="date-card">10 июня 2019</time>
+              <a href="#" class="author">Неизвестный автор</a>
+            </div>
+  
+            <div class="text-description">
+              <p class="text-card">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            </div>
+          </div>
+        </article>
+      </main>
+      <!--Aside-->
+      <aside class="aside">
+        <section class="aside-section">
+          <header class="header-aside">
+            <a href="#" class="a-aside">
+              <h3 class="header-text-aside">новые посты</h3>
+            </a>
+          </header>
+          <article class="aside-content">
+            <div class="imge-aside">
+              <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg"></a>
+            </div>
+  
+            <div class="aside-description">
+              <div class="date-aside">
+                <time class="date-card">10 июня 2019</time>
+              </div>
+  
+              <header class="header-description-aside">
+                <a href="#" class="a-aside">
+                  <h4 class="header-card-aside">10 мест, ради которых стоит проснуться</h4>
+                </a>
+              </header>
+  
+            </div>
+          </article>
+  
+          <article class="aside-content">
+            <div class="imge-aside">
+              <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg"></a>
+            </div>
+  
+            <div class="aside-description">
+              <div class="date-aside">
+                <time class="date-card">10 июня 2019</time>
+              </div>
+  
+              <header class="header-description-aside">
+                <a href="#" class="a-aside">
+                  <h4 class="header-card-aside">Йога для домашних</h4>
+                </a>
+              </header>
+  
+            </div>
+          </article>
+  
+          <article class="aside-content">
+            <div class="imge-aside">
+              <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg"></a>
+            </div>
+  
+            <div class="aside-description">
+              <div class="date-aside">
+                <time class="date-card">10 июня 2019</time>
+              </div>
+  
+              <header class="header-description-aside">
+                <a href="#" class="a-aside">
+                  <h4 class="header-card-aside">как мы превратили классное место в балкон</h4>
+                </a>
+              </header>
+  
+            </div>
+          </article>
+  
+          <article class="aside-content">
+            <div class="imge-aside">
+              <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg"></a>
+            </div>
+  
+            <div class="aside-description">
+              <div class="date-aside">
+                <time class="date-card">10 июня 2019</time>
+              </div>
+  
+              <header class="header-description-aside">
+                <a href="#" class="a-aside">
+                  <h4 class="header-card-aside">Кулинарный подход к науке</h4>
+                </a>
+              </header>
+  
+            </div>
+          </article>
+  
+          <article class="aside-content">
+            <div class="imge-aside">
+              <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg"></a>
+            </div>
+  
+            <div class="aside-description">
+              <div class="date-aside">
+                <time class="date-card">10 июня 2019</time>
+              </div>
+  
+              <header class="header-description-aside">
+                <a href="#" class="a-aside">
+                  <h4 class="header-card-aside">лучшие прически для распущенных волос</h4>
+                </a>
+              </header>
+  
+            </div>
+          </article>
+  
+          <form class="search" action="#">
+            <input id="search-label" class="search-input" placeholder="Найти..." name="search"><label for="search-label"><span class="visually-hidden">Поисковый запрос</span></label>
+            <button id="button-label" class="search-button"></button><label for="button-label"><span class="visually-hidden">Искать</span></label>
+          </form>
+        </section>
+  
+        <section class="search-section">
+          <header class="header-aside-under">
+            <a href="#" class="a-aside">
+              <h3 class="header-text-aside">рассылка</h3>
+            </a>
+          </header>
+  
+          <form class="search-under" action="#">
+            <input id="search-input-2" class="search-input-2" placeholder="Ваш email-адрес" name="mail"><label for="search-input-2"><span class="visually-hidden">Ваш email адрес</span></label>
+            <button id="search-button-2" class="search-button-under"><span class="text-button" href="#">подписаться</span></button><label for="search-input-2"><span class="visually-hidden">Подписаться</span></label>
+          </form>
+        </section>
+  
+        <section class="tag-section">
+          <article class="tag-menu-aside">
+            <header class="header-aside-under">
+              <a href="#" class="a-aside">
+                <h3 class="header-text-aside">теги</h3>
+              </a>
+            </header>
+  
+            <div class="tag-menu">
+              <ul class="menu">
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Fashion</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Music</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Lifestyle</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Art</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Interior</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Travel</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Food</a></li>
+                <li class="tag-aside"><a href="#" class="tag-link-aside">Health</a></li>
+              </ul>
+            </div>
+          </article>
+        </section>
+  
+        <section class="themes-section">
+          <article class="menu-themes-aside">
+            <header class="header-aside-under">
+              <a href="#" class="a-aside">
+                <h3 class="header-text-aside">темы</h3>
+              </a>
+            </header>
+  
+            <div class="menu-themes">
+              <ul class="menu-themes-1">
+                <li class="themes"><a class="themes-link">Красота</a><span class="exponentiation">12</span></li>
+                <li class="themes"><a class="themes-link">Здоровье</a><span class="exponentiation">4</span></li>
+                <li class="themes"><a class="themes-link">Образ жизни</a><span class="exponentiation">145</span></li>
+                <li class="themes"><a class="themes-link">Музыка</a><span class="exponentiation">28</span></li>
+                <li class="themes"><a class="themes-link">Спорт</a><span class="exponentiation">62</span></li>
+                <li class="themes"><a class="themes-link">Йога</a><span class="exponentiation">8</span></li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </aside>
+    </div>
+  </div>
+  </div>
+
+  <div class="card-product">
+    <header class="product-header">
+      <a class="a-product" href="#">
+        <h3 class="product-header-text">наше изделия</h3>
+    </a>    
+    </header>
+    <div class="product-card-content">
+      <article class="product-content">
+       <div class="product-img shop-item-mobile1"></div>
+       
+       <div class="product-text-card">
+         <header class="probuct-card-header">
+            <a class="a-product" href="#">
+              <h3 class="header-card product-header-dis">Подушки на диван</h3>
+            </a>
+        </header>
+        
+          <div class="text-description-product">
+            <p class="text-card text-prod">Набор из двух подушек с модными принтами. Видео о создании здесь.</p>
+          </div>
+          <div class="purchase">
+              <div class="price-container">
+                <span class="price price-through">1000 &#8381 </span>
+                <span class="price">800 &#8381</span>
+              </div>
+              <span class="hidden">Кнопка перехода в магазин</span>
+              <button class="shop-botton" type="submit">В магазин</button>
+            </div>
+          </div>
+        
+     </article>
+
+      <article class="product-content">
+       <div class="product-img shop-item-mobile2"></div>
+
+       <div class="product-text-card">
+         
+        <header class="probuct-card-header">
+           <a class="a-product" href="#">
+             <h3 class="header-card product-header-dis">Кукла "Зайчик"</h3>
+           </a>
+       </header>
+       
+         <div class="text-description-product">
+           <p class="text-card text-prod">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена весенняя серия постовв блоге и несколько подкастов.</p>
+         </div>
+         <div class="purchase">
+             <div class="price-container">
+               
+               <span class="price">500 &#8381</span>
+             </div>
+             <span class="hidden">Кнопка перехода в магазин</span>
+             <button class="shop-botton" type="submit">В магазин</button>
+           </div>
+          </div>
+         
+     </article>
+
+     <article class="product-content">
+        <div class="product-img shop-item-mobile3"></div>
+
+        <div class="product-text-card">
+          <header class="probuct-card-header">
+             <a class="a-product" href="#">
+               <h3 class="header-card product-header-dis">Шестиугольная рамка</h3>
+             </a>
+         </header>
+         
+           <div class="text-description-product">
+             <p class="text-card text-prod">Необычная рамка для украшения дома из видео "Как сделать рамку из подручных средств за 30 минут".</p>
+           </div>
+           <div class="purchase">
+               <div class="price-container">
+                 <span class="price price-through">500 &#8381 </span>
+                 <span class="price">400 &#8381</span>
+               </div>
+               <span class="hidden">Кнопка перехода в магазин</span>
+               <button class="shop-botton" type="submit">В магазин</button>
+             </div>
+           </div>
+      </article>
+    </div>
+  </div>
+  
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="inner-footer">
+        <div class="icons">
+          <ul class="menu-icons">
+            <li class="tag-menu-icons">
+              <a href="#">
+                <div class="icons-socils icons-socils-0"></div>
+              </a>
+              <span class="visually-hidden">Твиттер</span>
+            </li>
+            <li class="tag-menu-icons">
+              <a href="#">
+                <div class="icons-socils icons-socils-1"></div>
+              </a>
+              <span class="visually-hidden">Пинтрест</span>
+            </li>
+            <li class="tag-menu-icons">
+              <a href="#">
+                <div class="icons-socils icons-socils-2"></div>
+              </a>
+              <span class="visually-hidden">Фейсбук</span>
+            </li>
+            <li class="tag-menu-icons">
+              <a href="#">
+                <div class="icons-socils icons-socils-3"></div>
+              </a>
+              <span class="visually-hidden">Инстаграм</span>
+            </li>
+            <li class="tag-menu-icons">
+              <a href="#">
+                <div class="icons-socils icons-socils-4"></div>
+              </a>
+              <span class="visually-hidden">Тумблер</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="coperight">
+        <a class="coperight-text-link" href="#"><span class="coperight-text">Copyright © 2009–2019 City Blog LLC.</span></a>
+      </div>
+  
+    </div>
+  </footer>  
+</body>
+</html>
