@@ -66,12 +66,12 @@
         <!-- Nav -->
         <nav class="link-nav">
           <ul class="link-list">
-            <li class="link-tag"><a class="link" href="#">главная</a></li>
-            <li class="link-tag"><a class="link" href="#">посты</a></li>
-            <li class="link-tag"><a class="link" href="#">статьи</a></li>
-            <li class="link-tag"><a class="link" href="#">теги</a></li>
-            <li class="link-tag"><a class="link" href="#">темы</a></li>
-            <li class="link-tag"><a class="link" href="#">контакты</a></li>
+            <li class="link-tag"><a class="link" href="#main">главная</a></li>
+            <li class="link-tag"><a class="link" href="#page">посты</a></li>
+            <li class="link-tag"><a class="link" href="#page">статьи</a></li>
+            <li class="link-tag"><a class="link" href="#tag">теги</a></li>
+            <li class="link-tag"><a class="link" href="#themes">темы</a></li>
+            <li class="link-tag"><a class="link" href="#contact">контакты</a></li>
           </ul>
         </nav>
   
@@ -81,7 +81,7 @@
   </header>
   
   <!-- Main -->
-  <div class="main">
+  <div class="main" id="main">
       <div class="ribbon">
             <header class="ribbon-header">
                 <a class="a-ribbon" href="#">
@@ -165,7 +165,7 @@
       </div>
     </div>
 
-    <div class="container-page">  
+    <div class="container-page" id="page">  
       <main class="card">
         <article class="card-content">
           <div class="img-card">
@@ -499,7 +499,7 @@
           </form>
         </section>
   
-        <section class="tag-section">
+        <section class="tag-section" id="tag">
           <article class="tag-menu-aside">
             <header class="header-aside-under">
               <a href="#" class="a-aside">
@@ -522,7 +522,7 @@
           </article>
         </section>
   
-        <section class="themes-section">
+        <section class="themes-section" id="themes">
           <article class="menu-themes-aside">
             <header class="header-aside-under">
               <a href="#" class="a-aside">
@@ -632,7 +632,7 @@
   </div>
   
   <!--Footer-->
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="container">
       <div class="inner-footer">
         <div class="icons">
@@ -677,5 +677,6 @@
   
     </div>
   </footer>  
+  <script type="module" src="main.js"></script>
 </body>
 </html>
